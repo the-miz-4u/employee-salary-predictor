@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PAY PRIDICTOR</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg" alt="IBM Logo">
+      <h1>PAY PRIDICTOR</h1>
+    </div>
+
+    <form id="salaryForm">
+      <label for="age">Age (18 - 65)</label>
+      <input type="number" id="age" min="18" max="65" required />
+
+      <label for="experience">Years of Experience</label>
+      <input type="number" id="experience" min="0" max="47" required />
+
+      <label for="gender">Gender</label>
+      <select id="gender" required>
+        <option value="">Select</option>
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+        <option value="Other">Other</option>
+      </select>
+
+      <label for="city">City</label>
+      <select id="city" required>
+        <option value="Delhi">Delhi</option>
+        <option value="Mumbai">Mumbai</option>
+        <option value="Bangalore">Bangalore</option>
+        <option value="Hyderabad">Hyderabad</option>
+        <option value="Chennai">Chennai</option>
+        <option value="Kolkata">Kolkata</option>
+      </select>
+
+      <label for="cityType">City Type</label>
+      <select id="cityType" required>
+        <option value="Metro">Metro</option>
+        <option value="Urban">Urban</option>
+        <option value="Rural">Rural</option>
+      </select>
+
+      <label for="qualification">Qualification</label>
+      <select id="qualification" required>
+        <option value="Diploma">Diploma</option>
+        <option value="Bachelor">Bachelor's Degree</option>
+        <option value="Master">Master's Degree</option>
+        <option value="PhD">PhD</option>
+      </select>
+
+      <label for="hours">Hours per Week</label>
+      <input type="number" id="hours" min="10" max="80" required />
+
+      <label for="job">Job Title</label>
+      <select id="job" required>
+        <option value="Software Engineer">Software Engineer</option>
+        <option value="Data Analyst">Data Analyst</option>
+        <option value="Product Manager">Product Manager</option>
+        <option value="Designer">Designer</option>
+        <option value="DevOps Engineer">DevOps Engineer</option>
+        <option value="QA Tester">QA Tester</option>
+      </select>
+
+      <button type="submit">Predict Salary</button>
+    </form>
+
+    <div class="result" id="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
