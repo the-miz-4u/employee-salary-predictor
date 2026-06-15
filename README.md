@@ -13,7 +13,6 @@ Qualification
 Hours per week
 And gives you a rough estimate of what your annual salary might be 💰
 
-
 🎨 What’s special about it?
 Clean, modern, and colorful design ✨
 Very beginner-friendly — just fill in the form
