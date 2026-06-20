@@ -15,7 +15,7 @@ And gives you a rough estimate of what your annual salary might be 💰
 
 🎨 What’s special about it?
 Clean, modern, and colorful design ✨
-Very beginner-friendly — just fill in the form
+Very beginner-friendly - just fill in the form
 Built using simple HTML, CSS, and JavaScript
 Includes an IBM logo for a professional touch 🔵
 
