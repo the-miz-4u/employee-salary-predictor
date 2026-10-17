@@ -1,5 +1,4 @@
 # employee-salary-predictor
-
 Hey there! 👋
 Welcome to Pay Predictor — a fun and easy-to-use website that helps you estimate your yearly salary based on some basic personal and job details.
 
